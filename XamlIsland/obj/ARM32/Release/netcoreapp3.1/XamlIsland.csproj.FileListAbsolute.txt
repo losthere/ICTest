@@ -1,0 +1,1 @@
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\ARM32\Release\netcoreapp3.1\XamlIsland.csproj.AssemblyReference.cache
