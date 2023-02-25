@@ -10,7 +10,9 @@ namespace XamlIsland
         public MainWindow()
         {
             InitializeComponent();
-            myXamlHost.InitialTypeName = "MainPage";
+            //myXamlHost.Application = UWP.App.Current;
+            myXamlHost.InitialTypeName = "IC.MainPage";
+
 
         }
     }

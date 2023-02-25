@@ -9,7 +9,7 @@
             Title="MainWindow" Height="450" Width="800" Background="Transparent">
 
     <Grid>
-        <wux1:WindowsXamlHost x:Name="myXamlHost" InitialTypeName="XamlIsland.MainPage"/>
+        <wux1:WindowsXamlHost x:Name="myXamlHost" InitialTypeName="IC.MainPage"/>
     </Grid>
 
 </Window>
