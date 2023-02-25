@@ -131,6 +131,18 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\add.svg" />
+    <Content Include="Assets\assist.svg" />
+    <Content Include="Assets\Avatar-image.png" />
+    <Content Include="Assets\IC 49.png" />
+    <Content Include="Assets\Illustration.png" />
+    <Content Include="Assets\people.svg" />
+    <Content Include="Assets\Person2.png" />
+    <Content Include="Assets\Person3.png" />
+    <Content Include="Assets\Person4.png" />
+    <Content Include="Assets\Person5.png" />
+    <Content Include="Assets\share.svg" />
+    <Content Include="Assets\Wide310x150Logo.scale-2001.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

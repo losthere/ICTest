@@ -3,7 +3,6 @@ C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.dll
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.pri
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\resources.pri
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Properties\Default.rd.xml
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\LockScreenLogo.scale-200.png
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\SplashScreen.scale-200.png
@@ -12,6 +11,19 @@ C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\StoreLogo.png
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Wide310x150Logo.scale-200.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\resources.pri
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\add.svg
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\assist.svg
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Avatar-image.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\IC 49.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Illustration.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\people.svg
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Person2.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Person3.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Person4.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Person5.png
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\share.svg
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Assets\Wide310x150Logo.scale-2001.png
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\IC.xr.xml
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\App.xbf
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\MainPage.xbf
