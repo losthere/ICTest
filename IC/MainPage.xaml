@@ -6,10 +6,33 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+    Background="White"
     >
 
-    <Grid>
-        <Button Name="Hello" Content="h"></Button>
-        <Button Name="Hello1" Content="h1"></Button>
+    <Grid Background="Transparent" x:Name="AppTitleBar" BorderThickness="1" Height="Auto">
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <ListView ItemsSource="{Binding MyItems}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ListViewItem Height="62" PointerEntered="ListViewItem_PointerEntered" Width="Auto">
+                                <Grid Padding="10">
+                                    <PersonPicture ProfilePicture="{Binding}" Height="40px" Width="40px" />
+                                </Grid>
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Grid>
+                    <!-- <AppBarButton Icon="StatusCircleErrorX"/>
+                    <AppBarButton Icon="GripperDotsVertical"/>-->
+                    <StackPanel>
+                        <AppBarButton Icon="More" Tapped="AppBarButton_Click" CanDrag="True" />
+                        <AppBarButton x:Name="DragButton" Icon="GlobalNavigationButton"/>
+
+                    </StackPanel>
+                </Grid>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Page>

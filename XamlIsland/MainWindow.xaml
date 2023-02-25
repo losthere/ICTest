@@ -6,7 +6,7 @@
             xmlns:wux="clr-namespace:System.Windows.Interop;assembly=WindowsBase"
             xmlns:wux1="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
             mc:Ignorable="d"
-            Title="MainWindow" Height="450" Width="800" Background="Transparent">
+            Title="MainWindow" Height="450" Width="800" Background="{x:Null}" WindowStyle="None">
 
     <Grid>
         <wux1:WindowsXamlHost x:Name="myXamlHost" InitialTypeName="IC.MainPage"/>

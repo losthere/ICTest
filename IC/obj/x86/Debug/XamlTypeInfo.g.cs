@@ -199,7 +199,7 @@ namespace IC.IC_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication";
             _typeNameTable[1] = "Windows.UI.Xaml.Application";
             _typeNameTable[2] = "Boolean";
@@ -209,8 +209,12 @@ namespace IC.IC_XamlTypeInfo
             _typeNameTable[6] = "IC.MainPage";
             _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[9] = "System.Collections.ObjectModel.ObservableCollection`1<String>";
+            _typeNameTable[10] = "System.Collections.ObjectModel.Collection`1<String>";
+            _typeNameTable[11] = "Object";
+            _typeNameTable[12] = "String";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Application);
             _typeTable[2] = typeof(global::System.Boolean);
@@ -220,6 +224,10 @@ namespace IC.IC_XamlTypeInfo
             _typeTable[6] = typeof(global::IC.MainPage);
             _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[9] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::System.String>);
+            _typeTable[10] = typeof(global::System.Collections.ObjectModel.Collection<global::System.String>);
+            _typeTable[11] = typeof(global::System.Object);
+            _typeTable[12] = typeof(global::System.String);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -255,10 +263,24 @@ namespace IC.IC_XamlTypeInfo
         }
 
         private object Activate_6_MainPage() { return new global::IC.MainPage(); }
+        private object Activate_9_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::System.String>(); }
+        private object Activate_10_Collection() { return new global::System.Collections.ObjectModel.Collection<global::System.String>(); }
         private void VectorAdd_4_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>)instance;
             var newItem = (global::Windows.UI.Xaml.Markup.IXamlMetadataProvider)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_9_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.String>)instance;
+            var newItem = (global::System.String)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_10_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::System.String>)instance;
+            var newItem = (global::System.String)item;
             collection.Add(newItem);
         }
 
@@ -308,6 +330,7 @@ namespace IC.IC_XamlTypeInfo
             case 6:   //  IC.MainPage
                 userType = new global::IC.IC_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_MainPage;
+                userType.AddMemberName("MyItems");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -317,6 +340,28 @@ namespace IC.IC_XamlTypeInfo
                 break;
 
             case 8:   //  Windows.UI.Xaml.Controls.UserControl
+                xamlType = new global::IC.IC_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  System.Collections.ObjectModel.ObservableCollection`1<String>
+                userType = new global::IC.IC_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<String>"));
+                userType.CollectionAdd = VectorAdd_9_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.Collections.ObjectModel.Collection`1<String>
+                userType = new global::IC.IC_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_10_Collection;
+                userType.CollectionAdd = VectorAdd_10_Collection;
+                xamlType = userType;
+                break;
+
+            case 11:   //  Object
+                xamlType = new global::IC.IC_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 12:   //  String
                 xamlType = new global::IC.IC_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -338,6 +383,16 @@ namespace IC.IC_XamlTypeInfo
         {
             var that = (global::Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication)instance;
             return that.MetadataProviders;
+        }
+        private object get_3_MainPage_MyItems(object instance)
+        {
+            var that = (global::IC.MainPage)instance;
+            return that.MyItems;
+        }
+        private void set_3_MainPage_MyItems(object instance, object Value)
+        {
+            var that = (global::IC.MainPage)instance;
+            that.MyItems = (global::System.Collections.ObjectModel.ObservableCollection<global::System.String>)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -364,6 +419,12 @@ namespace IC.IC_XamlTypeInfo
                 xamlMember = new global::IC.IC_XamlTypeInfo.XamlMember(this, "MetadataProviders", "System.Collections.Generic.IList`1<Windows.UI.Xaml.Markup.IXamlMetadataProvider>");
                 xamlMember.Getter = get_2_XamlApplication_MetadataProviders;
                 xamlMember.SetIsReadOnly();
+                break;
+            case "IC.MainPage.MyItems":
+                userType = (global::IC.IC_XamlTypeInfo.XamlUserType)GetXamlTypeByName("IC.MainPage");
+                xamlMember = new global::IC.IC_XamlTypeInfo.XamlMember(this, "MyItems", "System.Collections.ObjectModel.ObservableCollection`1<String>");
+                xamlMember.Getter = get_3_MainPage_MyItems;
+                xamlMember.Setter = set_3_MainPage_MyItems;
                 break;
             }
             return xamlMember;
