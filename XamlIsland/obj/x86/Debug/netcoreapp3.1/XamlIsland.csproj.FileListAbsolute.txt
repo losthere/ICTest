@@ -1,9 +1,3 @@
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland.csproj.AssemblyReference.cache
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\MainWindow.baml
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\MainWindow.g.cs
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\App.g.cs
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland_Content.g.cs
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland_MarkupCompile.cache
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\IC.exe
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\IC.pdb
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\Microsoft.Toolkit.Win32.UI.XamlHost.dll
@@ -104,6 +98,12 @@ C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\vccorlib140_app.dll
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\vcomp140_app.dll
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\bin\x86\Debug\x86\Debug\netcoreapp3.1\vcruntime140_app.dll
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland.csproj.AssemblyReference.cache
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\App.g.cs
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland_Content.g.cs
+C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland_MarkupCompile.cache
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland.g.resources
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\x86\Debug\netcoreapp3.1\XamlIsland.AssemblyInfoInputs.cache

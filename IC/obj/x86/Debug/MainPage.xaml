@@ -10,7 +10,7 @@
 
     <Grid>
         <Button x:ConnectionId='2' Name="Hello" Content="h"></Button>
-        
+        <Button x:ConnectionId='3' Name="Hello1" Content="h1"></Button>
     </Grid>
 </Page>
 
