@@ -1,15 +1,16 @@
-﻿    <Window x:Class="XamlIsland.MainWindow"
-            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-            xmlns:wux="clr-namespace:System.Windows.Interop;assembly=WindowsBase"
-            xmlns:wux1="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
-            mc:Ignorable="d"
-            Title="MainWindow" Height="450" Width="800" Background="Transparent">
+﻿        <Window x:Class="XamlIsland.MainWindow"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:wux="clr-namespace:System.Windows.Interop;assembly=WindowsBase"
+                xmlns:wux1="clr-namespace:Microsoft.Toolkit.Wpf.UI.XamlHost;assembly=Microsoft.Toolkit.Wpf.UI.XamlHost"
+                mc:Ignorable="d"
+                Title="MainWindow" Height="450" Width="800"  WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="{x:Null}"
+                WindowStyle="None">
 
-    <Grid>
-        <wux1:WindowsXamlHost x:Name="myXamlHost" InitialTypeName="IC.MainPage"/>
-    </Grid>
+        <Grid>
+            <wux1:WindowsXamlHost x:Name="myXamlHost" InitialTypeName="IC.MainPage" Margin="0,0,-2713,-1385"/>
+        </Grid>
 
-</Window>
+    </Window>
