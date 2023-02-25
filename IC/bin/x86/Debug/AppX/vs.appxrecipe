@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-25T15:05:19.335</Modified>
+      <Modified>2023-02-25T15:19:07.286</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\IC.exe">
       <PackagePath>entrypoint\IC.exe</PackagePath>
-      <Modified>2023-02-25T15:05:14.323</Modified>
+      <Modified>2023-02-25T15:18:54.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\.nuget\packages\microsoft.toolkit.win32.ui.xamlapplication\6.1.3\runtimes\win10-x86\native\Microsoft.Toolkit.Win32.UI.XamlHost.dll">
       <PackagePath>Microsoft.Toolkit.Win32.UI.XamlHost.dll</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\IC.xr.xml">
       <PackagePath>IC.xr.xml</PackagePath>
-      <Modified>2023-02-25T15:05:14.196</Modified>
+      <Modified>2023-02-25T15:16:35.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-25T15:05:18.790</Modified>
+      <Modified>2023-02-25T15:19:06.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-25T15:05:18.790</Modified>
+      <Modified>2023-02-25T15:19:06.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-25T15:00:08.436</Modified>
+      <Modified>2023-02-25T15:18:54.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Core\IC.exe">
       <PackagePath>IC.exe</PackagePath>
-      <Modified>2023-02-25T15:05:19.335</Modified>
+      <Modified>2023-02-25T15:19:07.279</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

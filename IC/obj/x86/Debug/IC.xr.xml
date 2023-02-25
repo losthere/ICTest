@@ -3,10 +3,8 @@
   <Roots.RootTypes>
     <RootType FullName="Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
     </RootType>
