@@ -30,7 +30,7 @@ namespace IC
             this.InitializeComponent();
             MyItems = new ObservableCollection<string>
             {
-                "/Assets/StoreLogo.png",
+                "/Assets/Person2.png",
                 "/Assets/Person3.png",
                 "/Assets/Person4.png",
                 "/Assets/Person5.png"
