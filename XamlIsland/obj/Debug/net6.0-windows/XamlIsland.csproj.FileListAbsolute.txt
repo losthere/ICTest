@@ -1,1 +1,0 @@
-C:\Users\swatirathaur\source\repos\XamlIsland\XamlIsland\obj\Debug\net6.0-windows\XamlIsland.csproj.AssemblyReference.cache
