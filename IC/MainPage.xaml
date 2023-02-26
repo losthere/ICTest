@@ -6,10 +6,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White"  ScrollViewer.VerticalScrollBarVisibility="Disabled" AllowFocusWhenDisabled="True" CanDrag="True" CanBeScrollAnchor="True" CornerRadius="20,0,0,0" MaxWidth="80" MaxHeight="600"
+    Background="red"  ScrollViewer.VerticalScrollBarVisibility="Disabled" AllowFocusWhenDisabled="True" CanDrag="True" CanBeScrollAnchor="True" CornerRadius="20,0,0,0"
     >
 
-    <Grid Background="Transparent" x:Name="AppTitleBar" BorderThickness="1" >
+    <Grid Background="SkyBlue" x:Name="AppTitleBar" BorderThickness="1" >
         <Grid Grid.Row="1">
             <StackPanel>
                 <PersonPicture PointerEntered="ListViewItem_PointerEntered" ProfilePicture="ms-appx:///Assets/Person2.png" Height="40" Width="40" />
@@ -21,9 +21,8 @@
                     <!-- <AppBarButton Icon="StatusCircleErrorX"/>
                     <AppBarButton Icon="GripperDotsVertical"/>-->
                     <StackPanel>
+                        <AppBarButton x:Name="DragButton" Icon="GlobalNavigationButton" CanDrag="True"  HorizontalAlignment="Left" Margin="10" PointerPressed="DragButton_PointerPressed" PointerMoved="DragButton_PointerMoved" PointerReleased="DragButton_PointerReleased"/>
                         <AppBarButton Icon="More" Tapped="AppBarButton_Click" CanDrag="True" />
-                        <AppBarButton x:Name="DragButton" Icon="GlobalNavigationButton" CanDrag="True" DragStarting="AppBarButton_DragStarting"/>
-
                     </StackPanel>
                 </Grid>
             </StackPanel>

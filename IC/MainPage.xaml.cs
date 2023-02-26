@@ -15,6 +15,12 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using Windows.ApplicationModel.DataTransfer;
+using Windows.ApplicationModel.Core;
+using Windows.ApplicationModel.Core;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -26,6 +32,9 @@ namespace IC
     public sealed partial class MainPage : Page
     {
         public ObservableCollection<string> MyItems { get; set; }
+        private CoreApplicationView currentView;
+        private Point initialPosition;
+        private TranslateTransform transform;
         public MainPage()
         {
             this.InitializeComponent();
@@ -38,27 +47,31 @@ namespace IC
             };
 
             DataContext = this;
+            currentView = CoreApplication.GetCurrentView();
+            currentView.TitleBar.ExtendViewIntoTitleBar = true;
+            Window.Current.SetTitleBar(AppTitleBar);
+            Window.Current.Activate();
         }
-
-        private void AppBarButton_DragStarting(UIElement sender, DragStartingEventArgs args)
+        private void DragButton_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-           /* args.Handled = true;
-
-            // Set the data to be dragged
-            args.Data.SetText("XamlIsland");
-
-            // Set the anchor point for the drag operation to the center of the AppBarButton
-            args.DragUIOverride.AnchorPoint = new Point(0.5, 0.5);
-
-            // Set the content of the drag visual to the content of the AppBarButton
-            args.DragUIOverride.SetContentFromBitmapImage(new BitmapImage(new Uri("ms-appx:///Assets/DragIcon.png")));
-
-            // Set the default drag visual mode
-            args.DragUIOverride.IsGlyphVisible = true;
-            args.DragUIOverride.IsContentVisible = true;*/
+          /*  transform = new TranslateTransform();
+            transform.X = initialPosition.X - e.GetCurrentPoint(null).Position.X;
+            transform.Y = initialPosition.Y - e.GetCurrentPoint(null).Position.Y;
+            Window.Current.Content.RenderTransform = transform;*/
         }
 
+        private void DragButton_PointerMoved(object sender, PointerRoutedEventArgs e)
+        {
 
+          /*  transform.X = -e.GetCurrentPoint(DragButton).Position.X + initialPosition.X;
+            transform.Y = -e.GetCurrentPoint(DragButton).Position.Y + initialPosition.Y;
+            Window.Current.Content.RenderTransform = transform;*/
+        }
+
+        private void DragButton_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+         //   initialPosition = new Point(Window.Current.Bounds.Left, Window.Current.Bounds.Top);
+        }
 
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
@@ -115,6 +128,13 @@ namespace IC
                  // Hide the flyout when the pointer exits the ListViewItem
                  flyout.Hide();
              };*/
+
+
         }
+
+
     }
-}
+    
+
+    }
+

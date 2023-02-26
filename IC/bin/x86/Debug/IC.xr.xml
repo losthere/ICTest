@@ -8,8 +8,6 @@
       <RootProperty Name="CanDrag" />
       <RootProperty Name="CanBeScrollAnchor" />
       <RootProperty Name="CornerRadius" />
-      <RootProperty Name="MaxWidth" />
-      <RootProperty Name="MaxHeight" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
@@ -35,8 +33,12 @@
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
       <RootProperty Name="Icon" />
       <RootProperty Name="CanDrag" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootEvent Name="PointerPressed" />
+      <RootEvent Name="PointerMoved" />
+      <RootEvent Name="PointerReleased" />
       <RootEvent Name="Tapped" />
-      <RootEvent Name="DragStarting" />
     </RootType>
     <RootType FullName="IC.MainPage" />
   </Roots.RootTypes>
