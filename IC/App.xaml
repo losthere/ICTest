@@ -6,6 +6,15 @@
     
     xmlns:local="using:IC">
     <Application.Resources>
-        <ResourceDictionary Source="/Styles/Styles.xaml" />
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary Source="/Styles/Light.xaml" x:Key="Light" />
+                <ResourceDictionary Source="/Styles/Dark.xaml" x:Key="Dark" />
+            </ResourceDictionary.ThemeDictionaries>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Styles/Emoji.xaml" />
+                <ResourceDictionary Source="/Styles/Icon.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </xaml:XamlApplication>

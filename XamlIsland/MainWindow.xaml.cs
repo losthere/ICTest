@@ -1,9 +1,5 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
-using System.Windows.Media;
-using Microsoft.Toolkit.Wpf.UI.XamlHost;
-using Microsoft.VisualBasic;
 
 namespace XamlIsland
 {

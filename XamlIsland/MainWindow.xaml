@@ -8,11 +8,14 @@
         mc:Ignorable="d"
         Title="MainWindow"  WindowStyle="None" AllowsTransparency="True"
         MouseDown="Window_MouseDown"
-        Height="510" Background="Transparent"
-        Width="200">
+        Height="510" 
+        Width="600"
+        Background="#FFDDE9F0" Cursor="Hand" 
+        >
+    <Border>
 
-    <Grid>
-        <wux1:WindowsXamlHost x:Name="myXamlHost" IsHitTestVisible="False" Grid.Row="1" Grid.Column="0" Width="65" Height="300" InitialTypeName="IC.MainPage"/>
-    </Grid>
-
+        <Grid >
+            <wux1:WindowsXamlHost x:Name="myXamlHost" Width="500" Height="550" Grid.Row="1" Grid.Column="0"  InitialTypeName="IC.MainPage"/>
+        </Grid>
+    </Border>
 </Window>

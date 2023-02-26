@@ -52,26 +52,20 @@ namespace IC
             Window.Current.SetTitleBar(AppTitleBar);
             Window.Current.Activate();
         }
-        private void DragButton_PointerPressed(object sender, PointerRoutedEventArgs e)
+        private void Open_Bar_P1(object sender, TappedRoutedEventArgs e)
         {
-          /*  transform = new TranslateTransform();
-            transform.X = initialPosition.X - e.GetCurrentPoint(null).Position.X;
-            transform.Y = initialPosition.Y - e.GetCurrentPoint(null).Position.Y;
-            Window.Current.Content.RenderTransform = transform;*/
+            if (BarP1.Visibility == Visibility.Collapsed)
+            {
+                BarP1.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                BarP1.Visibility = Visibility.Collapsed;
+            }
         }
 
-        private void DragButton_PointerMoved(object sender, PointerRoutedEventArgs e)
-        {
 
-          /*  transform.X = -e.GetCurrentPoint(DragButton).Position.X + initialPosition.X;
-            transform.Y = -e.GetCurrentPoint(DragButton).Position.Y + initialPosition.Y;
-            Window.Current.Content.RenderTransform = transform;*/
-        }
-
-        private void DragButton_PointerReleased(object sender, PointerRoutedEventArgs e)
-        {
-         //   initialPosition = new Point(Window.Current.Bounds.Left, Window.Current.Bounds.Top);
-        }
+        
 
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
@@ -82,7 +76,7 @@ namespace IC
             FlyoutBase.ShowAttachedFlyout(sender as FrameworkElement);
         }
 
-        private void ListViewItem_PointerEntered(object sender, PointerRoutedEventArgs e)
+       /* private void ListViewItem_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
             ListViewItem listViewItem = (ListViewItem)sender;
             Flyout flyout = new Flyout();
@@ -123,14 +117,14 @@ namespace IC
             flyout.ShowAt(listViewItem);
 
             // Subscribe to the PointerExited event of the ListViewItem
-            /* listViewItem.PointerExited += (s, args) =>
+            *//* listViewItem.PointerExited += (s, args) =>
              {
                  // Hide the flyout when the pointer exits the ListViewItem
                  flyout.Hide();
-             };*/
+             };*//*
 
 
-        }
+        }*/
 
 
     }

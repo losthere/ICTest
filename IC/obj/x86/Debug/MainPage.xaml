@@ -1,0 +1,81 @@
+﻿<Page
+    x:Class="IC.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#FFDDE9F0"
+    >
+    <Grid x:ConnectionId='2'  x:Name="AppTitleBar" BorderThickness="1" >
+       <!-- <Grid>-->
+        <!--    <Grid.Background>-->
+       <!--         <AcrylicBrush BackgroundSource="Backdrop" TintLuminosityOpacity="0.44" TintOpacity="0" TintColor="LightSkyBlue" FallbackColor="#99D3D3D3" />-->
+       <!--     </Grid.Background>-->
+       <!-- </Grid>-->
+
+        <StackPanel x:ConnectionId='3' Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="BarP1" Style="{ThemeResource Bar_All}" Visibility="Collapsed">
+            <Border Style="{ThemeResource Fill_Action}">
+                <FontIcon Style="{ThemeResource Fluent_Video}" />
+            </Border>
+            <Border Style="{ThemeResource Fill_Action}" >
+                <FontIcon Style="{ThemeResource Fluent_Phone}" />
+            </Border>
+            <Border Style="{ThemeResource Fill_Action}">
+                <Grid>
+                    <Image x:ConnectionId='12' x:Name="EmojiLikeP1" Style="{ThemeResource Emoji_Like}" />
+                    <Image x:ConnectionId='13' x:Name="EmojiPizzaP1" Style="{ThemeResource Emoji_Pizza}" Visibility="Collapsed" />
+                </Grid>
+            </Border>
+            <StackPanel Style="{ThemeResource Bar_Send}">
+                <Grid Background="Transparent">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="210" />
+                        <ColumnDefinition Width="32" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBox x:ConnectionId='9' x:Name="MsgP1" Grid.Column="0" Style="{ThemeResource Text_Send}" Text="" />
+                    <Border x:ConnectionId='10' x:Name="MsgSendP1" Grid.Column="1" Style="{ThemeResource Fill_Msg_Send}" >
+                        <FontIcon Style="{ThemeResource Fluent_Send}" />
+                    </Border>
+                    <Border x:ConnectionId='11' x:Name="MsgReplyP1" Grid.Column="1" Style="{ThemeResource Fill_Msg_Reply}" Visibility="Collapsed">
+                        <FontIcon Style="{ThemeResource Fluent_Reply}" />
+                    </Border>
+                </Grid>
+            </StackPanel>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            
+            <StackPanel>
+                
+                <Grid x:ConnectionId='4' Grid.Row="0" Grid.Column="1" Style="{ThemeResource Control_Profile}"                     >
+                    <Ellipse Style="{ThemeResource Back_Profile}" />
+                    <PersonPicture Style="{ThemeResource Fill_Profile}" ProfilePicture="ms-appx:///Assets/Person2.png" />
+                    <Border Style="{ThemeResource Fill_Status_Online}" />
+                </Grid>
+                <Grid x:ConnectionId='5' Grid.Row="1" Grid.Column="1" Style="{ThemeResource Control_Profile}"                     >
+                    <Ellipse Style="{ThemeResource Back_Profile}" />
+                    <PersonPicture Style="{ThemeResource Fill_Profile}" ProfilePicture="ms-appx:///Assets/Person3.png" />
+                    <Border Style="{ThemeResource Fill_Status_Online}" />
+                </Grid>
+                <Grid x:ConnectionId='6' Grid.Row="2" Grid.Column="1" Style="{ThemeResource Control_Profile}"                     >
+                    <Ellipse Style="{ThemeResource Back_Profile}" />
+                    <PersonPicture Style="{ThemeResource Fill_Profile}" ProfilePicture="ms-appx:///Assets/Person4.png" />
+                    <Border Style="{ThemeResource Fill_Status_Away}" />
+                </Grid>
+                <Grid x:ConnectionId='7' Grid.Row="3" Grid.Column="1" Style="{ThemeResource Control_Profile}"                     >
+                    <Ellipse Style="{ThemeResource Back_Profile}" />
+                    <PersonPicture Style="{ThemeResource Fill_Profile}" ProfilePicture="ms-appx:///Assets/Person5.png" />
+                    <Border Style="{ThemeResource Fill_Status_DND}" />
+                </Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <AppBarButton x:ConnectionId='8' Icon="More"                             CanDrag="True" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

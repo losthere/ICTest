@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-02-26T17:46:59.877</Modified>
+      <Modified>2023-02-26T19:55:40.086</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\IC.exe">
       <PackagePath>entrypoint\IC.exe</PackagePath>
-      <Modified>2023-02-26T17:46:55.098</Modified>
+      <Modified>2023-02-26T19:48:40.159</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\.nuget\packages\microsoft.toolkit.win32.ui.xamlapplication\6.1.3\runtimes\win10-x86\native\Microsoft.Toolkit.Win32.UI.XamlHost.dll">
       <PackagePath>Microsoft.Toolkit.Win32.UI.XamlHost.dll</PackagePath>
@@ -70,6 +70,158 @@
       <PackagePath>Assets\Avatar-image.png</PackagePath>
       <Modified>2023-02-17T10:54:29.506</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\100.png">
+      <PackagePath>Assets\Emojis\100.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Angry.png">
+      <PackagePath>Assets\Emojis\Angry.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\BirthdayCake.png">
+      <PackagePath>Assets\Emojis\BirthdayCake.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\BottleWithCork.png">
+      <PackagePath>Assets\Emojis\BottleWithCork.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\BubbleTea.png">
+      <PackagePath>Assets\Emojis\BubbleTea.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Clap.png">
+      <PackagePath>Assets\Emojis\Clap.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\ClosedHands.png">
+      <PackagePath>Assets\Emojis\ClosedHands.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\CrossFingers.png">
+      <PackagePath>Assets\Emojis\CrossFingers.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\FaceInClouds.png">
+      <PackagePath>Assets\Emojis\FaceInClouds.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.202</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Fire.png">
+      <PackagePath>Assets\Emojis\Fire.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Flex.png">
+      <PackagePath>Assets\Emojis\Flex.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Heart.png">
+      <PackagePath>Assets\Emojis\Heart.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\HeartEyes.png">
+      <PackagePath>Assets\Emojis\HeartEyes.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Laugh.png">
+      <PackagePath>Assets\Emojis\Laugh.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Like.png">
+      <PackagePath>Assets\Emojis\Like.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\LoudCry.png">
+      <PackagePath>Assets\Emojis\LoudCry.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Partying.png">
+      <PackagePath>Assets\Emojis\Partying.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\PartyPopper.png">
+      <PackagePath>Assets\Emojis\PartyPopper.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Pizza.png">
+      <PackagePath>Assets\Emojis\Pizza.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Plane.png">
+      <PackagePath>Assets\Emojis\Plane.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Poo.png">
+      <PackagePath>Assets\Emojis\Poo.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Popcorn.png">
+      <PackagePath>Assets\Emojis\Popcorn.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Ramen.png">
+      <PackagePath>Assets\Emojis\Ramen.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\RollOnFloorLaugh.png">
+      <PackagePath>Assets\Emojis\RollOnFloorLaugh.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\RollOnFloorLaugh2.png">
+      <PackagePath>Assets\Emojis\RollOnFloorLaugh2.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\RollOnFloorLaugh3.png">
+      <PackagePath>Assets\Emojis\RollOnFloorLaugh3.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\RollOnFloorLaugh4.png">
+      <PackagePath>Assets\Emojis\RollOnFloorLaugh4.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Sad.png">
+      <PackagePath>Assets\Emojis\Sad.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\SeeNoEvil.png">
+      <PackagePath>Assets\Emojis\SeeNoEvil.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\SmileWithHorns.png">
+      <PackagePath>Assets\Emojis\SmileWithHorns.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\SmileWithTear.png">
+      <PackagePath>Assets\Emojis\SmileWithTear.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\SmilingEyes.png">
+      <PackagePath>Assets\Emojis\SmilingEyes.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.317</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Spicy.png">
+      <PackagePath>Assets\Emojis\Spicy.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\SportsMedal.png">
+      <PackagePath>Assets\Emojis\SportsMedal.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Surprised.png">
+      <PackagePath>Assets\Emojis\Surprised.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Sushi.png">
+      <PackagePath>Assets\Emojis\Sushi.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Taco.png">
+      <PackagePath>Assets\Emojis\Taco.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Emojis\Thinking.png">
+      <PackagePath>Assets\Emojis\Thinking.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.348</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\IC 49.png">
       <PackagePath>Assets\IC 49.png</PackagePath>
       <Modified>2023-02-17T10:54:29.506</Modified>
@@ -77,6 +229,14 @@
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Illustration.png">
       <PackagePath>Assets\Illustration.png</PackagePath>
       <Modified>2023-02-17T10:54:29.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\People\SarahPerez.png">
+      <PackagePath>Assets\People\SarahPerez.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\People\WandaHoward.png">
+      <PackagePath>Assets\People\WandaHoward.png</PackagePath>
+      <Modified>2023-02-26T17:49:22.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\Assets\Person2.png">
       <PackagePath>Assets\Person2.png</PackagePath>
@@ -138,15 +298,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\IC.xr.xml">
       <PackagePath>IC.xr.xml</PackagePath>
-      <Modified>2023-02-26T17:46:54.942</Modified>
+      <Modified>2023-02-26T19:48:40.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-02-26T17:46:59.391</Modified>
+      <Modified>2023-02-26T19:55:39.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2023-02-26T17:46:59.391</Modified>
+      <Modified>2023-02-26T19:55:39.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Styles\Dark.xbf">
+      <PackagePath>Styles\Dark.xbf</PackagePath>
+      <Modified>2023-02-26T19:55:39.106</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Styles\Emoji.xbf">
+      <PackagePath>Styles\Emoji.xbf</PackagePath>
+      <Modified>2023-02-26T19:55:39.112</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Styles\Icon.xbf">
+      <PackagePath>Styles\Icon.xbf</PackagePath>
+      <Modified>2023-02-26T19:55:39.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Styles\Light.xbf">
+      <PackagePath>Styles\Light.xbf</PackagePath>
+      <Modified>2023-02-26T19:55:39.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Styles\Styles.xbf">
+      <PackagePath>Styles\Styles.xbf</PackagePath>
+      <Modified>2023-02-26T19:55:39.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -154,11 +334,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-02-25T18:18:15.581</Modified>
+      <Modified>2023-02-26T18:28:34.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\swatirathaur\source\repos\XamlIsland\IC\bin\x86\Debug\Core\IC.exe">
       <PackagePath>IC.exe</PackagePath>
-      <Modified>2023-02-26T17:46:59.867</Modified>
+      <Modified>2023-02-26T19:55:40.075</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,180 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="Emoji" TargetType="Image">
+        <Setter Property="Height" Value="24" />
+        <Setter Property="Width" Value="24" />
+    </Style>
+
+    <Style x:Key="Unicode_Like" TargetType="FontIcon">
+        <Setter Property="Glyph" Value="&#x1F604;" />
+    </Style>
+    <Style x:Key="Emoji_Like" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Like.png" />
+    </Style>
+
+    <Style x:Key="Unicode_Heart" TargetType="FontIcon">
+        <Setter Property="Glyph" Value="&#x1f970;" />
+    </Style>
+    <Style x:Key="Emoji_Heart" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Heart.png" />
+    </Style>
+
+    <Style x:Key="Unicode_Laugh" TargetType="FontIcon">
+        <Setter Property="FontFamily" Value="Segoe UI Emoji" />
+        <Setter Property="Glyph" Value="&#x1F604;" />
+    </Style>
+    <Style x:Key="Emoji_Laugh" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Laugh.png" />
+    </Style>
+
+    <Style x:Key="Unicode_Surprised" TargetType="FontIcon">
+        <Setter Property="Glyph" Value="&#x1F62E;" />
+    </Style>
+    <Style x:Key="Emoji_Surprised" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Surprised.png" />
+    </Style>
+
+    <Style x:Key="Unicode_Sad" TargetType="FontIcon">
+        <Setter Property="Glyph" Value="&#x1F625;" />
+    </Style>
+    <Style x:Key="Emoji_Sad" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Sad.png" />
+    </Style>
+
+    <Style x:Key="Unicode_Angry" TargetType="FontIcon">
+        <Setter Property="Glyph" Value="&#x1F621;" />
+    </Style>
+    <Style x:Key="Emoji_Angry" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Angry.png" />
+    </Style>
+
+    <Style x:Key="Emoji_100" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/100.png" />
+    </Style>
+
+    <Style x:Key="Emoji_BirthdayCake" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/BirthdayCake.png" />
+    </Style>
+
+    <Style x:Key="Emoji_BottleWithCork" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/BottleWithCork.png" />
+    </Style>
+
+    <Style x:Key="Emoji_BubbleTea" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/BubbleTea.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Clap" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Clap.png" />
+    </Style>
+
+    <Style x:Key="Emoji_ClosedHands" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/ClosedHands.png" />
+    </Style>
+
+    <Style x:Key="Emoji_FaceInClouds" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/FaceInClouds.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Fire" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Fire.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Flex" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Flex.png" />
+    </Style>
+
+    <Style x:Key="Emoji_HeartEyes" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/HeartEyes.png" />
+    </Style>
+
+    <Style x:Key="Emoji_LoudCry" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/LoudCry.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Partying" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Partying.png" />
+    </Style>
+
+    <Style x:Key="Emoji_PartyPopper" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/PartyPopper.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Pizza" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Pizza.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Plane" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Plane.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Poo" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Poo.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Popcorn" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Popcorn.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Ramen" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Ramen.png" />
+    </Style>
+
+    <Style x:Key="Emoji_RollOnFloorLaugh" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/RollOnFloorLaugh.png" />
+    </Style>
+    <Style x:Key="Emoji_RollOnFloorLaugh_A" TargetType="Image">
+        <Setter Property="Height" Value="64" />
+        <Setter Property="Width" Value="64" />
+        <Setter Property="Source" Value="Assets/Emojis/RollOnFloorLaugh2.png" />
+    </Style>
+    <Style x:Key="Emoji_RollOnFloorLaugh_B" TargetType="Image">
+        <Setter Property="Height" Value="96" />
+        <Setter Property="Width" Value="96" />
+        <Setter Property="Source" Value="Assets/Emojis/RollOnFloorLaugh3.png" />
+    </Style>
+    <Style x:Key="Emoji_RollOnFloorLaugh_C" TargetType="Image">
+        <Setter Property="Height" Value="128" />
+        <Setter Property="Width" Value="128" />
+        <Setter Property="Source" Value="Assets/Emojis/RollOnFloorLaugh4.png" />
+    </Style>
+
+    <Style x:Key="Emoji_SeeNoEvil" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/SeeNoEvil.png" />
+    </Style>
+
+    <Style x:Key="Emoji_SmileWithHorns" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/SmileWithHorns.png" />
+    </Style>
+
+    <Style x:Key="Emoji_SmileWithTear" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/SmileWithTear.png" />
+    </Style>
+
+    <Style x:Key="Emoji_SmilingEyes" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/SmilingEyes.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Spicy" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Spicy.png" />
+    </Style>
+
+    <Style x:Key="Emoji_SportsMedal" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/SportsMedal.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Sushi" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Sushi.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Taco" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Taco.png" />
+    </Style>
+
+    <Style x:Key="Emoji_Thinking" TargetType="Image" BasedOn="{StaticResource Emoji}">
+        <Setter Property="Source" Value="Assets/Emojis/Thinking.png" />
+    </Style>
+
+</ResourceDictionary>
+
