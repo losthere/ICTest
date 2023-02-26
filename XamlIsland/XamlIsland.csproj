@@ -13,6 +13,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\add.svg" />
+    <None Remove="Assets\assist.svg" />
+    <None Remove="Assets\Avatar-image.png" />
+    <None Remove="Assets\IC 49.png" />
+    <None Remove="Assets\Illustration.png" />
+    <None Remove="Assets\LockScreenLogo.scale-200.png" />
+    <None Remove="Assets\people.svg" />
+    <None Remove="Assets\Person2.png" />
+    <None Remove="Assets\Person3.png" />
+    <None Remove="Assets\Person4.png" />
+    <None Remove="Assets\Person5.png" />
+    <None Remove="Assets\share.svg" />
+    <None Remove="Assets\SplashScreen.scale-200.png" />
+    <None Remove="Assets\Square150x150Logo.scale-200.png" />
+    <None Remove="Assets\Square44x44Logo.scale-200.png" />
+    <None Remove="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <None Remove="Assets\StoreLogo.png" />
+    <None Remove="Assets\Wide310x150Logo.scale-200.png" />
+    <None Remove="Assets\Wide310x150Logo.scale-2001.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\add.svg" />
+    <Content Include="Assets\assist.svg" />
+    <Content Include="Assets\Avatar-image.png" />
+    <Content Include="Assets\IC 49.png" />
+    <Content Include="Assets\Illustration.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\people.svg" />
+    <Content Include="Assets\Person2.png" />
+    <Content Include="Assets\Person3.png" />
+    <Content Include="Assets\Person4.png" />
+    <Content Include="Assets\Person5.png" />
+    <Content Include="Assets\share.svg" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-2001.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Toolkit.Wpf.UI.XamlHost" Version="6.1.2" />
   </ItemGroup>
 

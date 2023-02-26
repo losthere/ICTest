@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.ApplicationModel.DataTransfer;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -30,14 +31,34 @@ namespace IC
             this.InitializeComponent();
             MyItems = new ObservableCollection<string>
             {
-                "/Assets/Person2.png",
-                "/Assets/Person3.png",
-                "/Assets/Person4.png",
-                "/Assets/Person5.png"
+                "ms-appx:///Assets/Person2.png",
+                "ms-appx:///Assets/Person3.png",
+                "ms-appx:///Assets/Person4.png",
+                "ms-appx:///Assets/Person5.png",
             };
 
             DataContext = this;
         }
+
+        private void AppBarButton_DragStarting(UIElement sender, DragStartingEventArgs args)
+        {
+           /* args.Handled = true;
+
+            // Set the data to be dragged
+            args.Data.SetText("XamlIsland");
+
+            // Set the anchor point for the drag operation to the center of the AppBarButton
+            args.DragUIOverride.AnchorPoint = new Point(0.5, 0.5);
+
+            // Set the content of the drag visual to the content of the AppBarButton
+            args.DragUIOverride.SetContentFromBitmapImage(new BitmapImage(new Uri("ms-appx:///Assets/DragIcon.png")));
+
+            // Set the default drag visual mode
+            args.DragUIOverride.IsGlyphVisible = true;
+            args.DragUIOverride.IsContentVisible = true;*/
+        }
+
+
 
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {

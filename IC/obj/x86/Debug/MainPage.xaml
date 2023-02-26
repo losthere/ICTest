@@ -6,30 +6,23 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White"
+    Background="White" Width="80" Height="600" MinWidth="80" MinHeight="600" ScrollViewer.VerticalScrollBarVisibility="Disabled" AllowFocusWhenDisabled="True" CanDrag="True" CanBeScrollAnchor="True" CornerRadius="20,0,0,0" MaxWidth="80" MaxHeight="600"
     >
 
-    <Grid x:ConnectionId='2' Background="Transparent" x:Name="AppTitleBar" BorderThickness="1" Height="Auto">
+    <Grid x:ConnectionId='2' Background="Transparent" x:Name="AppTitleBar" BorderThickness="1" Height="Auto" >
         <Grid Grid.Row="1">
             <StackPanel>
-                <ListView ItemsSource="{Binding MyItems}" BorderThickness="0">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ListViewItem Height="62" Width="Auto">
-                                <Grid Padding="10">
-                                    <PersonPicture ProfilePicture="{Binding}" Height="40px" Width="40px" />
-                                </Grid>
-                            </ListViewItem>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-
+                <PersonPicture x:ConnectionId='3'                                              ProfilePicture="ms-appx:///Assets/Person2.png" Height="40" Width="40" />
+                <PersonPicture x:ConnectionId='4'                                              ProfilePicture="ms-appx:///Assets/Person3.png" Height="40" Width="40" />
+                <PersonPicture x:ConnectionId='5'                                              ProfilePicture="ms-appx:///Assets/Person4.png" Height="40" Width="40" />
+                <PersonPicture x:ConnectionId='6'                                              ProfilePicture="ms-appx:///Assets/Person5.png" Height="40" Width="40" />
                 <Grid>
+                   
                     <!-- <AppBarButton Icon="StatusCircleErrorX"/>
                     <AppBarButton Icon="GripperDotsVertical"/>-->
                     <StackPanel>
-                        <AppBarButton x:ConnectionId='3' Icon="More"                             CanDrag="True" />
-                        <AppBarButton x:ConnectionId='4' x:Name="DragButton" Icon="GlobalNavigationButton"/>
+                        <AppBarButton x:ConnectionId='7' Icon="More"                             CanDrag="True" />
+                        <AppBarButton x:ConnectionId='8' x:Name="DragButton" Icon="GlobalNavigationButton" CanDrag="True"                                         />
 
                     </StackPanel>
                 </Grid>
