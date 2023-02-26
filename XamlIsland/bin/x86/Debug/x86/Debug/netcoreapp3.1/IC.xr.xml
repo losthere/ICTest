@@ -4,10 +4,6 @@
     <RootType FullName="Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="MinHeight" />
       <RootProperty Name="AllowFocusWhenDisabled" />
       <RootProperty Name="CanDrag" />
       <RootProperty Name="CanBeScrollAnchor" />
@@ -23,7 +19,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="BorderThickness" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Children" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
