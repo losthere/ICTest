@@ -5,4 +5,7 @@
     xmlns:xaml="using:Microsoft.Toolkit.Win32.UI.XamlHost"
     
     xmlns:local="using:IC">
+    <Application.Resources>
+        <ResourceDictionary Source="/Styles/Styles.xaml" />
+    </Application.Resources>
 </xaml:XamlApplication>

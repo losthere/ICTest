@@ -1,8 +1,9 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 using Microsoft.Toolkit.Wpf.UI.XamlHost;
-
+using Microsoft.VisualBasic;
 
 namespace XamlIsland
 {
@@ -16,30 +17,15 @@ namespace XamlIsland
 
 
         }
-        private bool isDragging = false;
-        private Point startPoint;
-
-        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            isDragging = true;
-            startPoint = e.GetPosition(null);
-        }
-
-        private void Window_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
-        {
-            isDragging = false;
-        }
-
-        private void Window_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (isDragging && e.LeftButton == MouseButtonState.Pressed)
+            if (e.LeftButton == MouseButtonState.Pressed)
             {
-                Point currentPoint = e.GetPosition(null);
-                var mainWindow = Window.GetWindow(this);
-                mainWindow.Left += currentPoint.X - startPoint.X;
-                mainWindow.Top += currentPoint.Y - startPoint.Y;
+                DragMove();
             }
+
         }
+
 
     }
-}
+    }

@@ -1,0 +1,35 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="Fluent_Send" TargetType="FontIcon" BasedOn="{StaticResource Fluent}">
+        <Setter Property="Glyph" Value="&#xE724;" />
+    </Style>
+
+    <Style x:Key="Fluent_Reply" TargetType="FontIcon" BasedOn="{StaticResource Fluent}">
+        <Setter Property="Glyph" Value="&#xE97A;" />
+    </Style>
+
+    <Style x:Key="Fluent_Video" TargetType="FontIcon" BasedOn="{StaticResource Fluent}">
+        <Setter Property="Glyph" Value="&#xE714;" />
+    </Style>
+
+    <Style x:Key="Fluent_Phone" TargetType="FontIcon" BasedOn="{StaticResource Fluent}">
+        <Setter Property="Glyph" Value="&#xE717;" />
+    </Style>
+
+    <Style x:Key="Fluent_Menu" TargetType="FontIcon" BasedOn="{StaticResource Fluent}">
+        <Setter Property="FontSize" Value="14" />
+    </Style>
+
+    <Style x:Key="Fluent_Attach" TargetType="FontIcon" BasedOn="{StaticResource Fluent_Menu}">
+        <Setter Property="Glyph" Value="&#xE723;" />
+    </Style>
+
+    <Style x:Key="Fluent_Pin" TargetType="FontIcon" BasedOn="{StaticResource Fluent_Menu}">
+        <Setter Property="Glyph" Value="&#xE840;" />
+    </Style>
+
+    <Style x:Key="Fluent_Unpin" TargetType="FontIcon" BasedOn="{StaticResource Fluent_Menu}">
+        <Setter Property="Glyph" Value="&#xE77A;" />
+    </Style>
+</ResourceDictionary>

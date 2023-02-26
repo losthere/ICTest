@@ -1,31 +1,184 @@
 ﻿<Page
     x:Class="IC.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:IC"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="red"  ScrollViewer.VerticalScrollBarVisibility="Disabled" AllowFocusWhenDisabled="True" CanDrag="True" CanBeScrollAnchor="True" CornerRadius="20,0,0,0"
-    >
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+xmlns:local="using:IC" 
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ mc:Ignorable="d" 
+ Background="Transparent" >
 
-    <Grid Background="SkyBlue" x:Name="AppTitleBar" BorderThickness="1" >
-        <Grid Grid.Row="1">
-            <StackPanel>
-                <PersonPicture PointerEntered="ListViewItem_PointerEntered" ProfilePicture="ms-appx:///Assets/Person2.png" Height="40" Width="40" />
-                <PersonPicture PointerEntered="ListViewItem_PointerEntered" ProfilePicture="ms-appx:///Assets/Person3.png" Height="40" Width="40" />
-                <PersonPicture PointerEntered="ListViewItem_PointerEntered" ProfilePicture="ms-appx:///Assets/Person4.png" Height="40" Width="40" />
-                <PersonPicture PointerEntered="ListViewItem_PointerEntered" ProfilePicture="ms-appx:///Assets/Person5.png" Height="40" Width="40" />
-                <Grid>
+    <Grid HorizontalAlignment="Right" VerticalAlignment="Bottom">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="440" />
+                <ColumnDefinition Width="62" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition MinHeight="100" />
+                <RowDefinition MinHeight="100" />
+            </Grid.RowDefinitions>
+
+
+            <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="BarP1" Style="{ThemeResource Bar_All}" Visibility="Collapsed">
+                
+                <Border Style="{ThemeResource Fill_Action}" Tapped="Btn_Phone_P1">
+                    <FontIcon Style="{ThemeResource Fluent_Phone}" />
+                </Border>
+                <Border Style="{ThemeResource Fill_Action}" Tapped="Btn_Emoji_P1" RightTapped="Open_GridEmoji_P1">
                    
-                    <!-- <AppBarButton Icon="StatusCircleErrorX"/>
-                    <AppBarButton Icon="GripperDotsVertical"/>-->
-                    <StackPanel>
-                        <AppBarButton x:Name="DragButton" Icon="GlobalNavigationButton" CanDrag="True"  HorizontalAlignment="Left" Margin="10" PointerPressed="DragButton_PointerPressed" PointerMoved="DragButton_PointerMoved" PointerReleased="DragButton_PointerReleased"/>
-                        <AppBarButton Icon="More" Tapped="AppBarButton_Click" CanDrag="True" />
-                    </StackPanel>
-                </Grid>
+                </Border>
+                <StackPanel Style="{ThemeResource Bar_Send}">
+                    <Grid Background="Transparent">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="210" />
+                            <ColumnDefinition Width="32" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBox x:Name="MsgP1" Grid.Column="0" Style="{ThemeResource Text_Send}" Text="" />
+                       
+                    </Grid>
+                </StackPanel>
             </StackPanel>
+
+            <GridView x:Name="GridEmojiP1" Grid.Row="0" Grid.Column="0" Style="{ThemeResource GridView_Emoji}" Visibility="Collapsed">
+
+               
+            </GridView>
+
+            <Grid Grid.Row="0" Grid.Column="1" Style="{ThemeResource Control_Profile}" Tapped="Open_Bar_P1">
+                <Ellipse Style="{ThemeResource Back_Profile}" />
+                <PersonPicture Style="{ThemeResource Fill_Profile}" ProfilePicture="Assets\People\SarahPerez.png" />
+                <Border Style="{ThemeResource Fill_Status_Online}" />
+            </Grid>
+
+
+            <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="BarP2" Style="{ThemeResource Bar_All}" Visibility="Collapsed">
+               
+                <StackPanel Style="{ThemeResource Bar_Send}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="210" />
+                            <ColumnDefinition Width="32" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+
+                        <TextBox x:Name="MsgP2" Grid.Column="0" Style="{ThemeResource Text_Send}" Text="" />
+                        
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel x:Name="BarAnimateP2" Grid.Row="1" Grid.Column="0" Style="{ThemeResource Bar_Animate}" Visibility="Collapsed">
+                <StackPanel.Resources>
+                    <Storyboard x:Name="StoryboardEmojiP2">
+                        <DoubleAnimationUsingKeyFrames
+                            Storyboard.TargetName="AnimateEmojiP2A"
+                            Storyboard.TargetProperty="Opacity">
+                            <LinearDoubleKeyFrame Value="1.0" KeyTime="0:0:0"/>
+                            <LinearDoubleKeyFrame Value="0.0" KeyTime="0:0:3"/>
+                        </DoubleAnimationUsingKeyFrames>
+                        <DoubleAnimationUsingKeyFrames
+                            Storyboard.TargetName="AnimateEmojiP2B"
+                            Storyboard.TargetProperty="Opacity">
+                            <LinearDoubleKeyFrame Value="1.0" KeyTime="0:0:1"/>
+                            <LinearDoubleKeyFrame Value="0.0" KeyTime="0:0:4"/>
+                        </DoubleAnimationUsingKeyFrames>
+                        <DoubleAnimationUsingKeyFrames
+                            Storyboard.TargetName="AnimateEmojiP2C"
+                            Storyboard.TargetProperty="Opacity">
+                            <LinearDoubleKeyFrame Value="1.0" KeyTime="0:0:2"/>
+                            <LinearDoubleKeyFrame Value="0.0" KeyTime="0:0:5"/>
+                        </DoubleAnimationUsingKeyFrames>
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Image x:Name="AnimateEmojiP2A" Style="{ThemeResource Emoji_RollOnFloorLaugh_A}" Opacity="0"/>
+                <Image x:Name="AnimateEmojiP2B" Style="{ThemeResource Emoji_RollOnFloorLaugh_B}" Opacity="0"/>
+                <Image x:Name="AnimateEmojiP2C" Style="{ThemeResource Emoji_RollOnFloorLaugh_C}" Opacity="0"/>
+            </StackPanel>
+
+            <StackPanel x:Name="BarReplyP2" Grid.Row="1" Grid.Column="0" Style="{ThemeResource Clearbox_Reply}">
+                <Border x:Name="BtnReplyP2" Style="{ThemeResource Fill_Reply}" Visibility="Collapsed" Tapped="Open_Bar_Reply_P2">
+                    <FontIcon Style="{ThemeResource Fluent_Reply}" />
+                </Border>
+                <Border x:Name="BtnEmojiReplyP2" Style="{ThemeResource Fill_Reply}" Visibility="Collapsed" Tapped="Open_Bar_EmojiReply_P2">
+                    <Image Style="{ThemeResource Emoji_Like}" />
+                </Border>
+                <StackPanel Style="{ThemeResource Bar_Receive}" Tapped="Open_ReplyTools_P2">
+                    <TextBlock Style="{ThemeResource Text_Receive}" Text="Congrats! Send me pics when you arrive!" />
+                </StackPanel>
+            </StackPanel>
+            <GridView x:Name="BarEmojiReplyP2" Grid.Row="1" Grid.Column="0" Style="{ThemeResource GridView_EmojiReply}" Visibility="Collapsed">
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsWrapGrid x:Name="MaxItemsWrapGrid"
+                           MaximumRowsOrColumns="7"
+                           Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_LoudCry}" />
+                </UserControl>
+                
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_SmileWithHorns}" />
+                </UserControl>
+               
+
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Clap}" />
+                </UserControl>
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_PartyPopper}" />
+                </UserControl>
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Fire}" />
+                </UserControl>
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Flex}" />
+                </UserControl>
+                
+
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_BottleWithCork}" />
+                </UserControl>
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Pizza}" />
+                </UserControl>
+                
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Popcorn}" />
+                </UserControl>
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Ramen}" />
+                </UserControl>
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Spicy}" />
+                </UserControl>
+                <UserControl Style="{ThemeResource Btn_Emoji}">
+                    <Image Style="{ThemeResource Emoji_Sushi}" />
+                </UserControl>
+               
+            </GridView>
+
+
+            <Grid Grid.Row="1" Grid.Column="1" Style="{ThemeResource Control_Profile}" Tapped="Open_Bar_P2">
+                <Ellipse Style="{ThemeResource Back_Profile}" />
+                <PersonPicture Style="{ThemeResource Fill_Profile}" ProfilePicture="Assets\People\WandaHoward.png" />
+                <Border Style="{ThemeResource Fill_Status_Online}" />
+            </Grid>
         </Grid>
     </Grid>
 </Page>

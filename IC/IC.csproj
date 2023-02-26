@@ -134,9 +134,49 @@
     <Content Include="Assets\add.svg" />
     <Content Include="Assets\assist.svg" />
     <Content Include="Assets\Avatar-image.png" />
+    <Content Include="Assets\Emojis\100.png" />
+    <Content Include="Assets\Emojis\Angry.png" />
+    <Content Include="Assets\Emojis\BirthdayCake.png" />
+    <Content Include="Assets\Emojis\BottleWithCork.png" />
+    <Content Include="Assets\Emojis\BubbleTea.png" />
+    <Content Include="Assets\Emojis\Clap.png" />
+    <Content Include="Assets\Emojis\ClosedHands.png" />
+    <Content Include="Assets\Emojis\CrossFingers.png" />
+    <Content Include="Assets\Emojis\FaceInClouds.png" />
+    <Content Include="Assets\Emojis\Fire.png" />
+    <Content Include="Assets\Emojis\Flex.png" />
+    <Content Include="Assets\Emojis\Heart.png" />
+    <Content Include="Assets\Emojis\HeartEyes.png" />
+    <Content Include="Assets\Emojis\Laugh.png" />
+    <Content Include="Assets\Emojis\Like.png" />
+    <Content Include="Assets\Emojis\LoudCry.png" />
+    <Content Include="Assets\Emojis\Partying.png" />
+    <Content Include="Assets\Emojis\PartyPopper.png" />
+    <Content Include="Assets\Emojis\Pizza.png" />
+    <Content Include="Assets\Emojis\Plane.png" />
+    <Content Include="Assets\Emojis\Poo.png" />
+    <Content Include="Assets\Emojis\Popcorn.png" />
+    <Content Include="Assets\Emojis\Ramen.png" />
+    <Content Include="Assets\Emojis\RollOnFloorLaugh.png" />
+    <Content Include="Assets\Emojis\RollOnFloorLaugh2.png" />
+    <Content Include="Assets\Emojis\RollOnFloorLaugh3.png" />
+    <Content Include="Assets\Emojis\RollOnFloorLaugh4.png" />
+    <Content Include="Assets\Emojis\Sad.png" />
+    <Content Include="Assets\Emojis\SeeNoEvil.png" />
+    <Content Include="Assets\Emojis\SmileWithHorns.png" />
+    <Content Include="Assets\Emojis\SmileWithTear.png" />
+    <Content Include="Assets\Emojis\SmilingEyes.png" />
+    <Content Include="Assets\Emojis\Spicy.png" />
+    <Content Include="Assets\Emojis\SportsMedal.png" />
+    <Content Include="Assets\Emojis\Surprised.png" />
+    <Content Include="Assets\Emojis\Sushi.png" />
+    <Content Include="Assets\Emojis\Taco.png" />
+    <Content Include="Assets\Emojis\Thinking.png" />
     <Content Include="Assets\IC 49.png" />
     <Content Include="Assets\Illustration.png" />
     <Content Include="Assets\people.svg" />
+    <Content Include="Assets\People\SarahPerez.png" />
+    <Content Include="Assets\People\WandaHoward.png" />
     <Content Include="Assets\Person2.png" />
     <Content Include="Assets\Person3.png" />
     <Content Include="Assets\Person4.png" />
@@ -158,6 +198,26 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Dark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Emoji.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Icon.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Light.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Styles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
